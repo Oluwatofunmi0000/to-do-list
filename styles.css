@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+.background{
+    background-image: url("https://cdn.icon-icons.com/icons2/2416/PNG/512/heart_list_task_to_do_icon_146711.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    /* background-size: cover; */
+     height: 100%;/* Use vh unit instead of % */
+    padding: 20px; 
+    width: 55%;
+
+
+
+
+}
+
+.todo-container {
+    position: absolute;
+    
+    /* opacity: 0.999; */
+/* background-color: rgb(218, 204, 211); */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+    /* margin: 25px 25px 30px 30px; */
+    color: black;
+    font-size: medium;
+    /* font-weight: ; */
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 25px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    /* background-color: hotpink; */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    margin-left: 5px;
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li button.edit {
+    background-color: purple
+}
+
+li button.mark {
+    background-color: purple;
+}
