@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function() {
+    window.onload = function() {
+        document.getElementById("preloader").style.display = "none";
+        document.getElementById("todo-container").style.display = "block";
+    };
+});
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const addTaskButton = document.getElementById('add-task');
     const newTaskInput = document.getElementById('new-task');
