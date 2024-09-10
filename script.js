@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-    window.onload = function() {
-        document.getElementById("preloader").style.display = "none";
-        document.getElementById("todo-container").style.display = "block";
-    };
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//     window.onload = function() {
+//         document.getElementById("preloader").style.display = "none";
+//         document.getElementById("todo-container").style.display = "block";
+//     };
+// });
 
 
 
